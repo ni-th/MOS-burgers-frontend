@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
 .rubik{
     font-family: "Rubik", sans-serif;
 }
 .rubik-one{
-    font-family: "Rubik Mono One", monospace;
+    font-family: "Rubik", sans-serif;
+    font-weight: 900;
 }
 
 .nav .nav-item .active{
@@ -26,4 +27,20 @@
 
 .footer-color{
     background-color: #113D16;
+}
+
+/* products */
+
+.product-card{
+    border-radius: 40px;
+    background-color: #D9D9D9;
+    
+}
+.product-card:hover{
+    cursor: pointer;
+    background-color: #adadad;   
+}
+
+.bg-d9d9d9{
+    background-color: #D9D9D9;
 }

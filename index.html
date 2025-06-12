@@ -1,66 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOS Burgers</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home-styles.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.6-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/common-styles.css">
 </head>
-<body>
+
+<body class="rubik">
     <header>
-        <nav class="nav">
-            <ul class="m-r-5">
-                <li class="nav-item"><a href="index.html" class="rubik underline">Home</a></li>
-                <li class="nav-item"><a href="pages/dashboard.html" class="rubik">Dashboard</a></li>
-                <li class="nav-item"><a href="pages/products.html" class="rubik">Products</a></li>
-                <li class="nav-item"><a href="pages/cart.html" class="rubik">Cart</a></li>
-                <li class="nav-item"><a href="pages/orders.html" class="rubik">Orders</a></li>
-                <li class="nav-item"><a href="pages/login.html" class="rubik">Login</a></li>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> <svg
+                    class="bi me-2" width="40" height="32" aria-hidden="true">
+                    <use xlink:href="#bootstrap"></use>
+                </svg> <span class="fs-4">MOS</span> </a>
+            <ul class="nav">
+                <li class="nav-item"><a href="#" class="text-black nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="pages/dashboard.html" class="text-black nav-link">Dashboard</a></li>
+                <li class="nav-item"><a href="pages/products.html" class="text-black nav-link">Products</a></li>
+                <li class="nav-item"><a href="pages/cart.html" class="text-black nav-link">Cart</a></li>
+                <li class="nav-item"><a href="pages/orders.html" class="text-black nav-link">Orders</a></li>
+                <li class="nav-item"><a href="pages/login.html" class="text-black nav-link">Login</a></li>
             </ul>
-        </nav>
+        </header>
     </header>
-    <main class="m-auto">
-        <div class="home-card home-card-border-1 m-5">
-            <div class="flex">
-                <div class="justify-content-center m-auto" ><img src="img/burger.png" alt="burger" style="width: 20rem;"></div>
-                <div class="justify-content-center m-auto" ><p class="fs-96 justify-content-center rubik-one" style="font-size: 50px;">Burger</p></div>
+    <main class="container-fluid ps-4 pe-4 mb-5 pb-5">
+        <div class="bg-d9d9d9 text-center mb-3 home-card-border-1">
+            <div class="row d-flex align-items-center">
+                <div class="col-6">
+                    <img src="img/burger.png" style="width: 15rem;" alt="">
+                </div>
+                <div class="col-6">
+                    <h1 class="rubik-one align-middle">Burgers</h1>
+                </div>
             </div>
         </div>
-        <div class="home-card home-card-border-2 m-5">
-            <div class="flex">
-                <div class="justify-content-center m-auto" ><p class="fs-96 justify-content-center rubik-one" style="font-size: 50px;">Submarine</p></div>
-                <div class="justify-content-center m-auto" ><img src="img/submarine.png" alt="burger" style="width: 29rem;"></div>
+        <div class="bg-d9d9d9 text-center mb-3 home-card-border-2">
+            <div class="row d-flex align-items-center">
+                <div class="col-6">
+                    <h1 class="rubik-one align-middle">Submarine</h1>
+                </div>
+                <div class="col-6">
+                    <img src="img/submarine.png" style="width: 15rem;" alt="">
+                </div>
             </div>
         </div>
-        <div class="home-card home-card-border-1 m-5">
-            <div class="flex">
-                <div class="justify-content-center m-auto" ><img src="img/fries.png" alt="burger" style="width: 20rem;"></div>
-                <div class="justify-content-center m-auto" ><p class="fs-96 justify-content-center rubik-one" style="font-size: 50px;">Fries</p></div>
+        <div class="bg-d9d9d9 text-center mb-3 home-card-border-1">
+            <div class="row d-flex align-items-center">
+                <div class="col-6">
+                    <img src="img/fries.png" style="width: 15rem;" alt="">
+                </div>
+                <div class="col-6">
+                    <h1 class="rubik-one align-middle">Fries</h1>
+                </div>
             </div>
         </div>
-        <div class="home-card home-card-border-2 m-5">
-            <div class="flex">
-                <div class="justify-content-center m-auto" ><p class="fs-96 justify-content-center rubik-one" style="font-size: 50px;">Pasta</p></div>
-                <div class="justify-content-center m-auto" ><img src="img/pasta.png" alt="burger" style="width: 24rem;"></div>
+        <div class="bg-d9d9d9 text-center mb-3 home-card-border-2">
+            <div class="row d-flex align-items-center">
+                <div class="col-6">
+                    <h1 class="rubik-one align-middle">Submarine</h1>
+                </div>
+                <div class="col-6">
+                    <img src="img/pasta.png" style="width: 15rem;" alt="">
+                </div>
             </div>
         </div>
-        <div class="home-card home-card-border-1 m-5">
-            <div class="flex">
-                <div class="justify-content-center m-auto" ><img src="img/chicken.png" alt="burger" style="width: 24rem;"></div>
-                <div class="justify-content-center m-auto" ><p class="fs-96 justify-content-center rubik-one" style="font-size: 50px;">Chicken</p></div>
+        <div class="bg-d9d9d9 text-center mb-3 home-card-border-1">
+            <div class="row d-flex align-items-center">
+                <div class="col-6">
+                    <img src="img/chicken.png" style="width: 15rem;" alt="">
+                </div>
+                <div class="col-6">
+                    <h1 class="rubik-one align-middle">Chicken</h1>
+                </div>
             </div>
         </div>
-        <div class="home-card home-card-border-2 m-5">
-            <div class="flex">
-                <div class="justify-content-center m-auto" ><p class="fs-96 justify-content-center rubik-one" style="font-size: 50px;">Beverage</p></div>
-                <div class="justify-content-center m-auto" ><img src="img/beverage.png" alt="burger" style="width: 18rem;"></div>
+        <div class="bg-d9d9d9 text-center mb-3 home-card-border-2">
+            <div class="row d-flex align-items-center">
+                <div class="col-6">
+                    <h1 class="rubik-one align-middle">Breverage</h1>
+                </div>
+                <div class="col-6">
+                    <img src="img/beverage.png" style="width: 15rem;" alt="">
+                </div>
             </div>
         </div>
-        
     </main>
-    <footer></footer>
+    <footer class="mt-3 fixed-bottom">
+        <div class="footer-color pt-4 pb-4">
+            <div class="row ps-4 pe-4">
+                <div class="col-8">
+                    <h2 class="text-light rubik-one">MOS Burgers</h2>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <h6 class="text-light rubik-one">hotline : 2729729</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
