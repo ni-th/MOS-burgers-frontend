@@ -1,1 +1,1 @@
-~MOS Burgers~
+MOS Burgers
