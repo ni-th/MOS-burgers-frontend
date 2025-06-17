@@ -38,29 +38,32 @@
     </header>
     <main class="container-md ps-4 pe-4 mb-5 pb-5">
         <!-- Orders -->
-        <h3 class="text-center">Completed Orders</h3>
+        <h3 class="text-center">Manage Product</h3>
         <div class="row">
             <div class="col-md-6 col-sm-12 mb-4">
                 <div class="position-relative top-50 start-50 translate-middle ps-5 pe-5 pt-4 pb-4 rounded-5"
                     style="background-color: #d9d9d9;">
                     <form class="row g-3">
                         <div class="col-12">
-                            <input type="text" class="form-control" id="food-name" placeholder="email" required>
+                            <input type="text" class="form-control" id="food-name" placeholder="food name" required>
                         </div>
                         <div class="col-12">
-                            <select class="form-select" id="validationCustom04" required>
+                            <select class="form-select" id="food-category"  required>
                                 <option selected disabled value="">Choose...</option>
                                 <option>...</option>
                             </select>
                         </div>
                         <div class="col-12">
-                            <input type="number" class="form-control" id="email" placeholder="email" required>
+                            <input type="number" class="form-control" id="food-price" placeholder="price" required>
                         </div>
-                        <div class="col-8">
-                            <a href="signup.html">Don't have an account?</a>
+                        <div class="col-12">
+                            <input type="number" class="form-control" id="food-discount" placeholder="discount" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="date" class="form-control" id="food-exp-date" placeholder="exp date" required>
                         </div>
                         <div class="col-4 text-end">
-                            <button class="btn btn-primary" id="login" type="submit">Login</button>
+                            <button class="btn btn-primary" id="add-food" type="submit">Add</button>
                         </div>
                     </form>
                 </div>
@@ -70,25 +73,47 @@
                     style="background-color: #d9d9d9;">
                     <form class="row g-3">
                         <div class="col-12">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="email" required>
+                            <input type="text" class="form-control" id="food-item-code" placeholder="item code" required>
                         </div>
                         <div class="col-12">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="password" required>
+                            <input type="text" class="form-control" id="update-food-name" placeholder="food name" required>
                         </div>
-                        <div class="col-8">
-                            <a href="signup.html">Don't have an account?</a>
+                        <div class="col-12">
+                            <select class="form-select" id="update-food-category"  required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <input type="number" class="form-control" id="update-food-price" placeholder="price" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="number" class="form-control" id="update-food-discount" placeholder="discount" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="date" class="form-control" id="update-food-exp-date" placeholder="exp date" required>
                         </div>
                         <div class="col-4 text-end">
-                            <button class="btn btn-primary" id="login" type="submit">Login</button>
+                            <button class="btn btn-primary" id="update-food" type="submit">Update</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col"></div>
+            <div class="col-md-6 col-sm-12 mb-4">
+                <div class="position-relative top-50 start-50 translate-middle ps-5 pe-5 pt-4 pb-4 rounded-5"
+                    style="background-color: #d9d9d9;">
+                    <form class="row g-3">
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="food-item-code" placeholder="item code" required>
+                        </div>
+                        <div class="col-4 text-end">
+                            <button class="btn btn-primary" id="delete-food" type="submit">Delete</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
 
 
