@@ -27,537 +27,192 @@
                         </li>
                         <li class="nav-item"><a href="dashboard.html" class="text-black nav-link">Dashboard</a></li>
                         <li class="nav-item"><a href="#" class="text-black nav-link active">Products</a></li>
-                        <li class="nav-item"><a href="cart.html" class="text-black nav-link">Cart</a></li>
+                        <li class="nav-item"><button type="button" class="position-relative text-black nav-link"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                data-bs-whatever="@getbootstrap">Cart <span id="order-count"
+                                    class="position-absolute top-0 start-100 translate-middle-x badge text-danger">
+
+                                    <span class="visually-hidden">unread messages</span>
+                                </span></button></li>
                         <li class="nav-item"><a href="orders.html" class="text-black nav-link">Orders</a></li>
                         <li class="nav-item"><a href="login.html" class="text-black nav-link">Login</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <nav id="navbar-example2" class="rounded-5 rounded-top-0 sticky-top navbar bg-body-secondary px-3 mb-3 z-2 justify-content-center" style="top: 56px;">
+
+        <nav id="navbar-example2"
+            class="rounded-5 rounded-top-0 sticky-top navbar bg-body-secondary px-3 mb-3 z-2 justify-content-center"
+            style="top: 56px;">
             <!-- <a class="navbar-brand" href="#">Menu</a> -->
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading1">Burgers</a>
+                    <a class="nav-link" href="#burger-div">Burgers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading2">Submarines</a>
+                    <a class="nav-link" href="#submarine-div">Submarines</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading3">Pasta</a>
+                    <a class="nav-link" href="#pasta-div">Pasta</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading4">Fries</a>
+                    <a class="nav-link" href="#fries-div">Fries</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading5">Chicken</a>
+                    <a class="nav-link" href="#chicken-div">Chicken</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading6">Breverage</a>
+                    <a class="nav-link" href="#breverage-div">Breverage</a>
                 </li>
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                        aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-                        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
-                    </ul>
-                </li> -->
             </ul>
         </nav>
-        <!-- <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> <a href="/"
-                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> <svg
-                    class="bi me-2" width="40" height="32" aria-hidden="true">
-                    <use xlink:href="#bootstrap"></use>
-                </svg> <span class="fs-4">MOS</span> </a>
-            <ul class="nav nav-underline ">
-                <li class="nav-item"><a href="../index.html" class="text-black nav-link" aria-current="page">Home</a>
-                </li>
-                <li class="nav-item"><a href="dashboard.html" class="text-black nav-link">Dashboard</a></li>
-                <li class="nav-item"><a href="#" class="text-black nav-link active">Products</a></li>
-                <li class="nav-item"><a href="cart.html" class="text-black nav-link">Cart</a></li>
-                <li class="nav-item"><a href="orders.html" class="text-black nav-link">Orders</a></li>
-                <li class="nav-item"><a href="login.html" class="text-black nav-link">Login</a></li>
-            </ul>
-        </header> -->
     </header>
     <main class="container-fluid ps-4 pe-4 mb-5 pb-5">
-        
+
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
             data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-            <div id="scrollspyHeading1">
-            <h1 class="text-center rubik-one">Burgers</h1>
-            <div class="d-flex flex-wrap justify-content-center">
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/burger.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/burger.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/burger.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/burger.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-            </div></div>
-            <!-- Submarine -->
-             <div id="scrollspyHeading2">
-            <h1 class="text-center rubik-one">Submarine</h1>
-            <div class="d-flex flex-wrap justify-content-center">
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/submarine.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/submarine.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/submarine.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-            </div></div>
-            <!-- Pasta -->
-            <h1 id="scrollspyHeading3" class="text-center rubik-one">Pasta</h1>
-            <div class="d-flex flex-wrap justify-content-center">
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/pasta.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/pasta.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
+            <div id="burger-div">
             </div>
-            <h1 id="scrollspyHeading4" class="text-center rubik-one">Fries</h1>
-            <div class="d-flex flex-wrap justify-content-center">
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/fries.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/fries.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
+            <!-- Submarine -->
+            <div id="submarine-div">
+            </div>
+            <!-- Pasta -->
+            <div id="pasta-div">
+            </div>
+            <!-- Fries -->
+            <div id="fries-div">
             </div>
             <!-- Chicken -->
-            <h1 id="scrollspyHeading5" class="text-center rubik-one">Chicken</h1>
-            <div class="d-flex flex-wrap justify-content-center">
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/chicken.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/chicken.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
+            <div id="chicken-div">
             </div>
             <!-- Breverage -->
-            <h1 id="scrollspyHeading6" class="text-center rubik-one">Breverage</h1>
-            <div class="d-flex flex-wrap justify-content-center">
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/beverage.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
+            <div id="breverage-div">
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/beverage.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
+                    <div class="modal-body">
+                        <table class="table">
+                            <thead class="table-secondary">
+                                <tr>
+                                    <th class="text-center" scope="col">item</th>
+                                    <th class="text-center" scope="col">price</th>
+                                    <th class="text-center" scope="col">qty</th>
+                                    <th class="text-center" scope="col">discount</th>
+                                    <th class="text-center" scope="col">total</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cart-body">
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col-3"><img src="../img/burger.png" alt="" style="width: 5rem;">
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="fs-5">Classic Burger (Large)</p>
+                                                <p class="text-secondary">item code : B1001</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">750.00</td>
+                                    <td class="align-middle"><span class="pe-3 ps-3 bg-secondary rounded">2</span></td>
+                                    <td class="text-center align-middle">5%</td>
+                                    <td class="align-middle">
+                                        <div class="row">
+                                            <div class="col">1425.00</div>
+                                            <div class="col"><button
+                                                    class=" btn btn-danger pt-0 pb-0 rounded">-</button></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col-3"><img src="../img/burger.png" alt="" style="width: 5rem;">
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="fs-5">Classic Burger (Large)</p>
+                                                <p class="text-secondary">item code : B1001</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">750.00</td>
+                                    <td class="align-middle"><span class="pe-3 ps-3 bg-secondary rounded">2</span></td>
+                                    <td class="text-center align-middle">5%</td>
+                                    <td class="align-middle">
+                                        <div class="row">
+                                            <div class="col">1425.00</div>
+                                            <div class="col"><button
+                                                    class=" btn btn-danger pt-0 pb-0 rounded">-</button></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col-3"><img src="../img/burger.png" alt="" style="width: 5rem;">
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="fs-5">Classic Burger (Large)</p>
+                                                <p class="text-secondary">item code : B1001</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">750.00</td>
+                                    <td class="align-middle"><span class="pe-3 ps-3 bg-secondary rounded">2</span></td>
+                                    <td class="text-center align-middle">5%</td>
+                                    <td class="align-middle">
+                                        <div class="row">
+                                            <div class="col">1425.00</div>
+                                            <div class="col"><button
+                                                    class=" btn btn-danger pt-0 pb-0 rounded">-</button></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col-3"><img src="../img/burger.png" alt="" style="width: 5rem;">
+                                            </div>
+                                            <div class="col-9">
+                                                <p class="fs-5">Classic Burger (Large)</p>
+                                                <p class="text-secondary">item code : B1001</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">750.00</td>
+                                    <td class="align-middle"><span class="pe-3 ps-3 bg-secondary rounded">2</span></td>
+                                    <td class="text-center align-middle">5%</td>
+                                    <td class="align-middle">
+                                        <div class="row">
+                                            <div class="col">1425.00</div>
+                                            <div class="col"><button
+                                                    class=" btn btn-danger pt-0 pb-0 rounded">-</button></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="table-secondary">
+                                    <th> </th>
+                                    <td class="text-center">Total</td>
+                                    <td class="text-center">12</td>
+                                    <td> </td>
+                                    <td>5000.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/beverage.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
                     </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-                </div>
-                <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                    <div class="row">
-                        <div class="col-7"><img src="../img/beverage.png" style="width: 10rem;" alt=""></div>
-                        <div class="col-5">
-                            <h5 class="rubik-one">B1001</h5>
-                        </div>
-                    </div>
-                    <h5 class="rubik-one">Classic Burger (Large)</h5>
-                    <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                    <h5 class="rubik-one"><span>15% Discount</span></h5>
-
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-        <!-- <h1 class="text-center rubik-one">Burgers</h1>
-        <div class="d-flex flex-wrap justify-content-center">
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/burger.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/burger.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/burger.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/burger.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-        </div> -->
-
-        <!-- Submarine -->
-
-        <!-- <h1 class="text-center rubik-one">Submarine</h1>
-        <div class="d-flex flex-wrap justify-content-center">
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/submarine.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/submarine.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/submarine.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-        </div> -->
-
-        <!-- Pasta -->
-
-        <!-- <h1 class="text-center rubik-one">Pasta</h1>
-        <div class="d-flex flex-wrap justify-content-center">
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/pasta.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/pasta.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-        </div> -->
-        <!-- Fries -->
-        <!-- <h1 class="text-center rubik-one">Fries</h1>
-        <div class="d-flex flex-wrap justify-content-center">
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/fries.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/fries.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-        </div> -->
-        <!-- Chicken -->
-        <!-- <h1 class="text-center rubik-one">Chicken</h1>
-        <div class="d-flex flex-wrap justify-content-center">
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/chicken.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/chicken.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-        </div> -->
-        <!-- Breverage-->
-        <!-- <h1 class="text-center rubik-one">Breverage</h1>
-        <div class="d-flex flex-wrap justify-content-center">
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/beverage.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/beverage.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/beverage.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-            <div onclick="alert('clicked')" class="product-card p-3 m-3" style="width: 18rem;">
-                <div class="row">
-                    <div class="col-7"><img src="../img/beverage.png" style="width: 10rem;" alt=""></div>
-                    <div class="col-5">
-                        <h5 class="rubik-one">B1001</h5>
-                    </div>
-                </div>
-                <h5 class="rubik-one">Classic Burger (Large)</h5>
-                <h2 class="rubik-one text-danger">LKR <span>750.00</span></h2>
-                <h5 class="rubik-one"><span>15% Discount</span></h5>
-
-            </div>
-        </div> -->
-
-
     </main>
     <footer class="mt-3 fixed-bottom">
         <div class="footer-color pt-4 pb-4">
@@ -575,7 +230,8 @@
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script> -->
     <script src="../assets/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/app.js"></script>
 </body>
 
 </html>

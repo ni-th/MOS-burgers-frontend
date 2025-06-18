@@ -4,321 +4,367 @@
         "itemName": "Classic Burger (Large)",
         "price": 750.00,
         "discount": null,
-        "category": "Burgers"
+        "category": "Burgers",
+        "imageUrl": "../img/B1001.png"
     },
     {
         "itemCode": "B1002",
         "itemName": "Classic Burger (Regular)",
         "price": 1500.00,
-        "discount": "15%",
-        "category": "Burgers"
+        "discount": 15,
+        "category": "Burgers",
+        "imageUrl": "../img/B1001.png"
     },
     {
         "itemCode": "B1003",
         "itemName": "Turkey Burger",
         "price": 1600.00,
         "discount": null,
-        "category": "Burgers"
+        "category": "Burgers",
+        "imageUrl": "../img/B1003.png"
     },
     {
         "itemCode": "B1004",
         "itemName": "Chicken Burger (Large)",
         "price": 1400.00,
         "discount": null,
-        "category": "Burgers"
+        "category": "Burgers",
+        "imageUrl": "../img/B1004.png"
     },
     {
         "itemCode": "B1005",
         "itemName": "Chicken Burger (Regular)",
         "price": 800.00,
-        "discount": "20%",
-        "category": "Burgers"
+        "discount": 20,
+        "category": "Burgers",
+        "imageUrl": "../img/B1004.png"
     },
     {
         "itemCode": "B1006",
         "itemName": "Cheese Burger (Large)",
         "price": 1000.00,
         "discount": null,
-        "category": "Burgers"
+        "category": "Burgers",
+        "imageUrl": "../img/B1004.png"
     },
     {
         "itemCode": "B1007",
         "itemName": "Cheese Burger (Regular)",
         "price": 600.00,
         "discount": null,
-        "category": "Burgers"
+        "category": "Burgers",
+        "imageUrl": "../img/B1007.png"
     },
     {
         "itemCode": "B1008",
         "itemName": "Bacon Burger",
         "price": 650.00,
-        "discount": "15%",
-        "category": "Burgers"
+        "discount": 15,
+        "category": "Burgers",
+        "imageUrl": "../img/B1008.png"
     },
     {
         "itemCode": "B1009",
         "itemName": "Shawarma Burger",
         "price": 800.00,
         "discount": null,
-        "category": "Burgers"
+        "category": "Burgers",
+        "imageUrl": "../img/B1009.png"
     },
     {
         "itemCode": "B1010",
         "itemName": "Olive Burger",
         "price": 1800.00,
         "discount": null,
-        "category": "Burgers"
+        "category": "Burgers",
+        "imageUrl": "../img/B1010.png"
     },
     {
         "itemCode": "B1012",
         "itemName": "Double-Cheese Burger",
         "price": 1250.00,
-        "discount": "20%",
-        "category": "Burgers"
+        "discount": 20,
+        "category": "Burgers",
+        "imageUrl": "../img/B1012.png"
     },
     {
         "itemCode": "B1013",
         "itemName": "Crispy Chicken Burger (Regular)",
         "price": 1200.00,
         "discount": null,
-        "category": "Burgers"
+        "category": "Burgers",
+        "imageUrl": "../img/B1013.png"
     },
     {
         "itemCode": "B1014",
         "itemName": "Crispy Chicken Burger (Large)",
         "price": 1600.00,
-        "discount": "10%",
-        "category": "Burgers"
+        "discount": 10,
+        "category": "Burgers",
+        "imageUrl": "../img/B1013.png"
     },
     {
         "itemCode": "B1015",
         "itemName": "Paneer Burger",
         "price": 900.00,
         "discount": null,
-        "category": "Burgers"
+        "category": "Burgers",
+        "imageUrl": "../img/B1015.png"
     },
     {
         "itemCode": "B1016",
         "itemName": "Crispy Chicken Submarine (Large)",
         "price": 2000.00,
         "discount": null,
-        "category": "Submarines"
+        "category": "Submarines",
+        "imageUrl": "../img/B1016.png"
     },
     {
         "itemCode": "B1017",
         "itemName": "Crispy Chicken Submarine (Regular)",
         "price": 1500.00,
         "discount": null,
-        "category": "Submarines"
+        "category": "Submarines",
+        "imageUrl": "../img/B1016.png"
     },
     {
         "itemCode": "B1018",
         "itemName": "Chicken Submarine (Large)",
         "price": 1800.00,
-        "discount": "3%",
-        "category": "Submarines"
+        "discount": 3,
+        "category": "Submarines",
+        "imageUrl": "../img/B1018.png"
     },
     {
         "itemCode": "B1019",
         "itemName": "Chicken Submarine (Regular)",
         "price": 1400.00,
         "discount": null,
-        "category": "Submarines"
+        "category": "Submarines",
+        "imageUrl": "../img/B1018.png"
     },
     {
         "itemCode": "B1020",
         "itemName": "Grinder Submarine",
         "price": 2300.00,
         "discount": null,
-        "category": "Submarines"
+        "category": "Submarines",
+        "imageUrl": "../img/B1020.png"
     },
     {
         "itemCode": "B1021",
         "itemName": "Cheese Submarine",
         "price": 2200.00,
         "discount": null,
-        "category": "Submarines"
+        "category": "Submarines",
+        "imageUrl": "../img/B1021.png"
     },
     {
         "itemCode": "B1022",
         "itemName": "Double Cheese n Chicken Submarine",
         "price": 1900.00,
-        "discount": "16%",
-        "category": "Submarines"
+        "discount": 16,
+        "category": "Submarines",
+        "imageUrl": "../img/B1022.png"
     },
     {
         "itemCode": "B1023",
         "itemName": "Special Horgie Submarine",
         "price": 2800.00,
         "discount": null,
-        "category": "Submarines"
+        "category": "Submarines",
+        "imageUrl": "../img/B1023.png"
     },
     {
         "itemCode": "B1024",
         "itemName": "MOS Special Submarine",
         "price": 3000.00,
         "discount": null,
-        "category": "Submarines"
+        "category": "Submarines",
+        "imageUrl": "../img/B1024.png"
     },
     {
         "itemCode": "B1025",
         "itemName": "Steak Fries (Large)",
         "price": 1200.00,
         "discount": null,
-        "category": "Fries"
+        "category": "Fries",
+        "imageUrl": "../img/B1025.png"
     },
     {
         "itemCode": "B1026",
         "itemName": "Steak Fries (Medium)",
         "price": 600.00,
         "discount": null,
-        "category": "Fries"
+        "category": "Fries",
+        "imageUrl": "../img/B1026.png"
     },
     {
         "itemCode": "B1027",
         "itemName": "French Fries (Large)",
         "price": 800.00,
         "discount": null,
-        "category": "Fries"
+        "category": "Fries",
+        "imageUrl": "../img/B1027.png"
     },
     {
         "itemCode": "B1028",
         "itemName": "French Fries (Medium)",
         "price": 650.00,
         "discount": null,
-        "category": "Fries"
+        "category": "Fries",
+        "imageUrl": "../img/B1028.png"
     },
     {
         "itemCode": "B1029",
         "itemName": "French Fries (Small)",
         "price": 450.00,
         "discount": null,
-        "category": "Fries"
+        "category": "Fries",
+        "imageUrl": "../img/B1029.png"
     },
     {
         "itemCode": "B1030",
         "itemName": "Sweet Potato Fries (Large)",
         "price": 600.00,
         "discount": null,
-        "category": "Fries"
+        "category": "Fries",
+        "imageUrl": "../img/B1030.png"
     },
     {
         "itemCode": "B1031",
         "itemName": "Chicken n Cheese Pasta",
         "price": 1600.00,
-        "discount": "15%",
-        "category": "Pasta"
+        "discount": 15,
+        "category": "Pasta",
+        "imageUrl": "../img/B1031.png"
     },
     {
         "itemCode": "B1032",
         "itemName": "Chicken Penne Pasta",
         "price": 1700.00,
         "discount": null,
-        "category": "Pasta"
+        "category": "Pasta",
+        "imageUrl": "../img/B1032.png"
     },
     {
         "itemCode": "B1033",
         "itemName": "Ground Turkey Pasta Bake",
         "price": 2900.00,
-        "discount": "10%",
-        "category": "Pasta"
+        "discount": 10,
+        "category": "Pasta",
+        "imageUrl": "../img/B1033.png"
     },
     {
         "itemCode": "B1034",
         "itemName": "Creamy Shrimp Pasta",
         "price": 2000.00,
         "discount": null,
-        "category": "Pasta"
+        "category": "Pasta",
+        "imageUrl": "../img/B1034.png"
     },
     {
         "itemCode": "B1035",
         "itemName": "Lemon Butter Pasta",
         "price": 1950.00,
         "discount": null,
-        "category": "Pasta"
+        "category": "Pasta",
+        "imageUrl": "../img/B1035.png"
     },
     {
         "itemCode": "B1036",
         "itemName": "Tagliatelle Pasta",
         "price": 2400.00,
-        "discount": "1%",
-        "category": "Pasta"
+        "discount": 1,
+        "category": "Pasta",
+        "imageUrl": "../img/B1036.png"
     },
     {
         "itemCode": "B1037",
         "itemName": "Baked Ravioli",
         "price": 2000.00,
-        "discount": "1%",
-        "category": "Pasta"
+        "discount": 1,
+        "category": "Pasta",
+        "imageUrl": "../img/B1037.png"
     },
     {
         "itemCode": "B1038",
         "itemName": "Fried Chicken (Small)",
         "price": 1200.00,
         "discount": null,
-        "category": "Chicken"
+        "category": "Chicken",
+        "imageUrl": "../img/B1038.png"
     },
     {
         "itemCode": "B1039",
         "itemName": "Fried Chicken (Regular)",
         "price": 2300.00,
-        "discount": "10%",
-        "category": "Chicken"
+        "discount": 10,
+        "category": "Chicken",
+        "imageUrl": "../img/B1039.png"
     },
     {
         "itemCode": "B1040",
         "itemName": "Fried Chicken (Large)",
         "price": 3100.00,
-        "discount": "5%",
-        "category": "Chicken"
+        "discount": 5,
+        "category": "Chicken",
+        "imageUrl": "../img/B1040.png"
     },
     {
         "itemCode": "B1041",
         "itemName": "Hot Wings (Large)",
         "price": 2400.00,
         "discount": null,
-        "category": "Chicken"
+        "category": "Chicken",
+        "imageUrl": "../img/B1041.png"
     },
     {
         "itemCode": "B1042",
         "itemName": "Devilled Chicken (Large)",
         "price": 900.00,
         "discount": null,
-        "category": "Chicken"
+        "category": "Chicken",
+        "imageUrl": "../img/B1042.png"
     },
     {
         "itemCode": "B1043",
         "itemName": "BBQ Chicken (Regular)",
         "price": 2100.00,
         "discount": null,
-        "category": "Chicken"
+        "category": "Chicken",
+        "imageUrl": "../img/B1043.png"
     },
     {
         "itemCode": "B1044",
         "itemName": "Pepsi (330ml)",
         "price": 990.00,
-        "discount": "5%",
-        "category": "Beverages"
+        "discount": 5,
+        "category": "Beverages",
+        "imageUrl": "../img/B1044.png"
     },
     {
         "itemCode": "B1045",
         "itemName": "Coca-Cola (330ml)",
         "price": 1230.00,
         "discount": null,
-        "category": "Beverages"
+        "category": "Beverages",
+        "imageUrl": "../img/B1045.png"
     },
     {
         "itemCode": "B1046",
         "itemName": "Sprite (330ml)",
         "price": 1500.00,
-        "discount": "3%",
-        "category": "Beverages"
+        "discount": 3,
+        "category": "Beverages",
+        "imageUrl": "../img/B1046.png"
     },
     {
         "itemCode": "B1047",
         "itemName": "Mirinda (330ml)",
         "price": 850.00,
-        "discount": "7%",
-        "category": "Beverages"
+        "discount": 7,
+        "category": "Beverages",
+        "imageUrl": "../img/B1047.png"
     }
 ]
